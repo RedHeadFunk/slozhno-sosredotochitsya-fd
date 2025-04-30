@@ -7,6 +7,8 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  font-weight: 400;
+  line-height: 130%;
 }
 
 /* Шапка */
@@ -70,15 +72,15 @@
 /* Текст заголовка */
 
 .title-text_decor {
-  background-color: var(--accent-color);
+  background-color: var(--title-decor);
   font-size: var(--font-size);
-  margin-block-start: 55px;
-  margin-block-end: 55px;
   color: var(--title-color);
   line-height: 130%;
 }
 
 .title_text {
+  margin-block-start: 55px;
+  margin-block-end: 55px;
   justify-self: end;
   align-self: center;
 }
@@ -114,4 +116,25 @@
   background-color: var(--accent-color);
   border-radius: 50%;
   box-shadow: 0 0 4px 2px var(--accent-color);
+}
+
+/* Main*/
+
+.main_content {
+  margin-block: 20px;
+  margin-inline: 10px;
+  
+}
+
+.question {
+  margin-block: 20px;
+  color: var(--accent-color);
+}
+
+.answer {
+  margin-block: 20px 10px;
+}
+
+.main_content-text {
+  color: var(--content-color);
 }

@@ -4,10 +4,13 @@
 */
 :root {
   --font: "IBM Plex Mono", sans-serif;
-  --fon-size: 18px;
-  --accent-color: #ff0070;
-  --title-color:  #000028;
-  --background-image: url(/images/cover-image-dark.png); 
+  --font-size: 18px;
+  --accent-color:#ff0070;
+  --title-decor:#ff0070;
+  --title-color:#000028;
+  --content-color: #f1b2ce;
+  --background-image: url(/images/cover-image-dark.png);
+  --font-weight: 400; 
 }
 
 @media (min-width >= 1024px) {
