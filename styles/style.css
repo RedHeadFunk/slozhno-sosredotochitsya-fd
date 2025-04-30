@@ -62,7 +62,7 @@
 
 /* Заголовок */
 
-.header_title {
+.title {
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 83%;
   color: #db00ff;
@@ -151,4 +151,12 @@
   width: 100%;
   height: auto;
   object-fit: cover;
+}
+
+.footer {
+  min-block-size: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
