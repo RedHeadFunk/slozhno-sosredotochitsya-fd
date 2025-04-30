@@ -1,5 +1,4 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
   font-family: var(--font);
@@ -14,6 +13,7 @@
 /* Шапка */
 
 .header {
+  min-block-size: 100vh;
   padding: 10px;
   position: relative;
   display: grid;
@@ -127,7 +127,7 @@
 }
 
 .question {
-  margin-block: 20px;
+  margin-block: 20px; 
   color: var(--accent-color);
 }
 
@@ -137,4 +137,18 @@
 
 .main_content-text {
   color: var(--content-color);
+}
+
+.image_list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px; 
+  max-width: 100%; 
+  overflow: hidden; 
+}
+
+.image_list img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
