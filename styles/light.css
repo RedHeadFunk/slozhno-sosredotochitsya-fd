@@ -1,32 +1,27 @@
-
 :root.theme-light {
-  --bg-image: url('../images/cover-image-light.png');
-  --bg-color: #FFF1F7;
-  --accent-color: #FF8DCB;
-  --header-title-color: #FFC2E6;
+  --bg-image: url("../images/cover-image-light.png");
+  --bg-color: #fff1f7;
+  --accent-color: #ff8dcb;
+  --link-color: #353430;
+  --header-title-color: #ffc2e6;
   --content-color: #353430;
   --question-color: #353430;
-  --title-decor: #FF8DCB;
+  --title-decor: #ff8dcb;
   --border-color: #353430;
   --rec-display: none;
-  
 }
 
-
-
-  @media (prefers-color-scheme: light) {
-    :root {
-      --bg-image: url('../images/cover-image-light.png');
-      --bg-color: #FFF1F7;
-      --accent-color: #FF8DCB;
-      --header-title-color: #FFC2E6;
-      --content-color: #353430;
-      --question-color: #353430;
-      --title-decor: #FF8DCB;
-      --border-color: #353430;
-      --rec-display: none;
-    }
-      
-      
-    }
-  
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-image: url("../images/cover-image-light.png");
+    --bg-color: #fff1f7;
+    --accent-color: #ff8dcb;
+    --link-color: #353430;
+    --header-title-color: #ffc2e6;
+    --content-color: #353430;
+    --question-color: #353430;
+    --title-decor: #ff8dcb;
+    --border-color: #353430;
+    --rec-display: none;
+  }
+}

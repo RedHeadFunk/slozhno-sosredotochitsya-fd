@@ -1,15 +1,14 @@
-
 :root {
   --font: "IBM Plex Mono", sans-serif;
   --font-size: 18px;
-  --accent-color:#ff0070;
-  --title-decor:#ff0070;
-  --title-color:#000028;
-  --question-color: #ff0070 ;
+  --accent-color: #ff0070;
+  --title-decor: #ff0070;
+  --title-color: #000028;
+  --question-color: #ff0070;
   --content-color: #f1b2ce;
-  --header-title-color: #DB00FF;
+  --header-title-color: #db00ff;
   --border-color: #ff0070;
-  --bg-image: url('../images/cover-image-dark.png');
+  --bg-image: url("../images/cover-image-dark.png");
   --bg-color: #000028;
   --font-weight: 400;
   --desctop-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
