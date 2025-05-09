@@ -84,7 +84,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--hv-color);
   cursor: pointer;
 }
 

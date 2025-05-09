@@ -10,17 +10,22 @@
   --bg-image: url("../images/cover-image-dark.png");
   --bg-color: #000028;
   --rec-display: block;
+  --hv-color: rgb(255 0 112 / 0.4);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg-image: url("../images/cover-image-dark.png");
-    --bg-color: #000028;
     --accent-color: #ff0070;
     --link-color: #ff0070;
     --title-decor: #ff0070;
     --title-color: #000028;
+    --question-color: #ff0070;
     --content-color: #f1b2ce;
+    --header-title-color: #db00ff;
+    --border-color: #ff0070;
+    --bg-image: url("../images/cover-image-dark.png");
+    --bg-color: #000028;
     --rec-display: block;
+    --hv-color: rgb(255 0 112 / 0.4);
   }
 }

@@ -9,6 +9,7 @@
   --title-decor: #ff8dcb;
   --title-color: #353430;
   --border-color: #353430;
+  --hv-color: rgb(50 49 45 / 0.4);
   --rec-display: none;
 }
 
@@ -24,6 +25,7 @@
     --title-decor: #ff8dcb;
     --title-color: #353430;
     --border-color: #353430;
+    --hv-color: rgb(50 49 45 / 0.4);
     --rec-display: none;
   }
 }
